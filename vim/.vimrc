@@ -47,6 +47,9 @@ colorscheme vividchalk
 " Vim Tag List 
 nnoremap <silent> <F8> :TlistToggle<CR>
 
+" use spaces instead of stinking tabs
+set expandtab
+
 " size of a hard tabstop
 set tabstop=2
 
@@ -56,3 +59,7 @@ set shiftwidth=2
 " a combination of spaces and tabs are used to simulate tab stops at a width
 " other than the (hard)tabstop
 set softtabstop=2
+
+set nowrap
+
+imap <Tab><space> <C-P>
