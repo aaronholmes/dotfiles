@@ -61,5 +61,7 @@ set shiftwidth=2
 set softtabstop=2
 
 set nowrap
-
 imap <Tab><space> <C-P>
+
+set swapfile
+set dir=~/tmp
