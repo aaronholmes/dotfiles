@@ -46,8 +46,8 @@ set laststatus=2                  " Show the status line all the time
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Use the vividchalk color scheme from tpope (https://github.com/tpope/vim-vividchalk)
-" colorscheme vividchalk
-colorscheme jellybeans
+colorscheme vividchalk
+" colorscheme jellybeans
 
 " Vim Tag List 
 nnoremap <silent> <F8> :TlistToggle<CR>
