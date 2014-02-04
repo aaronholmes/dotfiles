@@ -9,8 +9,6 @@ call vundle#rc()
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle' 
 
-Bundle 'Command-T'
-
 " Bundles
 Bundle 'joonty/vim-phpqa.git'
 
@@ -31,10 +29,7 @@ set ruler                         " Show cursor position.
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
 " highlight the current line the cursor is on
-"set cursorline
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
+set cursorline
 
 set showmatch
 
